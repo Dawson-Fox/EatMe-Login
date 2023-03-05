@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    overflow: hidden;
+}
+
+
+/* heading section start */
+
+.navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.nav-link-wrapper {
+    display: flex;
+    gap: 30px;
+    font-size: 0.8rem;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+.nav-link a:hover {
+    color: #9893da;
+}
+
+.logo-wrapper {
+    font-size: 2rem;
+    position: relative;
+}
+
+.logo-wrapper {
+    text-align: center;
+}
+
+.logo-wrapper > .logo > h2 {
+    margin-top: 1.75rem;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+ .right-wrapper {
+    margin-top: 15px;
+    margin-right: 15px;
+    gap: 20px;
+    display: flex;
+    font-size: 0.8rem;
+} 
+
+/* heading section end */
+
+/* Search bar start */
+
+.search-bar-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.search-bar-wrapper > input {
+    width: 300px;
+    border: 2px solid #9893da;
+    border-radius: 100px;
+    height: 1.5rem;
+}
+
+input::placeholder {
+    font-family: 'Libre Baskerville', serif;
+    border-radius: 50px;
+}
+
+input:focus {
+    outline-color: #9893da;
+}
+
+/* Search Bar End */
+
+/* body section start */
+.cuisine-section {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.cuisine-heading {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.cuisine-stack-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cuisine-stack {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    width: fit-content;
+}
+
+.cuisine-block {
+    border-radius: 100px;
+    border: 3px solid #9893da;
+    padding: 1px;
+    margin: 2rem;
+    background-color: #ffff;;
+}
+
+.cuisine-block > h6 {
+    margin: 15px;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.cuisine-block > h6, a {
+    text-decoration: none;
+}
+
+/* body end */
